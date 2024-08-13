@@ -75,7 +75,7 @@ interface LabelledInputType {
     type?: string;
 }
 
-function LabelledInput({label, placeholder , onChange , type}) {
+function LabelledInput({label, placeholder , onChange , type}: LabelledInputType) {
     return <div>
         <div>
             <label  className="block mb-2 text-sm font-semibold text-black pt-4">{label}</label>
