@@ -11,9 +11,6 @@ export const Signin = () => {
             <div className="hidden lg:block">
                 <Quote/>
             </div>
-
-           
-
         </div>
         
     </div>
